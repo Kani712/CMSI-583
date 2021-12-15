@@ -39,7 +39,16 @@ The turing machine provides if given strings are accepted or not accepted.
 ## Running the program 
 
 ### commmand to run the program is : 
-    ```python main.py -f Complement -t Complement ```
+   ### For Complement 
+    ``` python main.py -f Complement -t Complement ```
+   ### For Increment
+     ``` python main.py -f Increment -t Increment ```
+   ### For Decrement
+     ``` python main.py -f Decrement -t Decrement ```
+   ### For Palindrome
+    ``` python main.py -f Palindrome -t Palindrome ``` 
+   ### For Divisible by three
+    ``` python main.py -f Divbythree -t Divbythree ```
 
 ## Function format
     ```
@@ -120,7 +129,7 @@ Notice the leading 'b', this signifies a blank on the tape. The Turing Machine w
     and accept until the tape head is positioned once again on the leftmost
     non-blank character of the input string
     
-    - command to run the complement is  : ``` python main.py -f Complement -t Complement ```
+    - **command to run the complement is  :** ``` python main.py -f Complement -t Complement ```
 
 2. Increment
     - The input string of 0 and 1 symbols is treated as a binary
@@ -132,7 +141,7 @@ Notice the leading 'b', this signifies a blank on the tape. The Turing Machine w
     until the tape head is positioned once again on the leftmost non-blank
     character of the input string.
     
-    - command to run the complement is  : ``` python main.py -f Increment -t Increment ```
+    - **command to run the Increment is  :** ``` python main.py -f Increment -t Increment ```
 
 3. Decrement
     - The input string of 0 and 1 symbols is treated as a binary
@@ -145,7 +154,7 @@ Notice the leading 'b', this signifies a blank on the tape. The Turing Machine w
     other arithmetic, the TM should not finish and accept until the tape
     head is positioned once again on the leftmost non-blank character of
     the input string
-    - command to run the complement is  : ``` python main.py -f Decrement -t Decrement ```        
+    - **command to run the Decrement is  :** ``` python main.py -f Decrement -t Decrement ```        
 
 
 4. Palindromes
@@ -153,7 +162,7 @@ Notice the leading 'b', this signifies a blank on the tape. The Turing Machine w
     to see if it is a palindrome. If it is, the TM halts and accepts. If it is
     not, the TM halts without accepting.
 
-    - command to run the complement is  : ``` python main.py -f Palindrome -t Palindrome ```      
+    - **command to run the Palindrome is  :** ``` python main.py -f Palindrome -t Palindrome ```      
 
 5. Divisible by three
     - The input string of 0 and 1 symbols is treated as a binary
@@ -163,7 +172,7 @@ Notice the leading 'b', this signifies a blank on the tape. The Turing Machine w
     bit is a 1. If this process results in 0, then n is divisible by 3. If it does
     not result in 0, then n is not divisible by 3
 
-    - command to run the complement is  : ``` python main.py -f Divbythree -t Divbythree ```      
+    - **command to run the Divisible by three is  :** ``` python main.py -f Divbythree -t Divbythree ```      
 
 
 we used the argparse module as it makes easy to write user-friendly command-line interfaces.
