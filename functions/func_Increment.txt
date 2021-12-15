@@ -1,0 +1,7 @@
+Incrementstart 0 Incrementtransition 1 left
+Incrementstart 1 Incrementstart 0 right
+Incrementstart b Incrementtransition 1 left
+
+Incrementtransition 1 Incrementtransition 1 left
+Incrementtransition 0 Incrementtransition 0 left
+Incrementtransition b Incrementfinal b right

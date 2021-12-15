@@ -1,0 +1,21 @@
+Palindromestart 0 Palindromeone b right
+Palindromestart 1 Palindromefour b right
+Palindromestart b Palindromefinal b right
+
+Palindromeone 0 Palindromeone 0 right
+Palindromeone 1 Palindromeone 1 right
+Palindromeone b Palindrometwo b left
+
+Palindrometwo 0 Palindromethree b left
+Palindrometwo b Palindromefinal b right
+
+Palindromethree 0 Palindromethree 0 left
+Palindromethree 1 Palindromethree 1 left
+Palindromethree b Palindromestart b right
+
+Palindromefour 0 Palindromefour 0 right
+Palindromefour 1 Palindromefour 1 right
+Palindromefour b Palindromefive b left
+
+Palindromefive 1 Palindromethree b left
+Palindromefive b Palindromefinal b right

@@ -1,0 +1,9 @@
+Divbythreestart 0 Divbythreeone 1 right
+Divbythreestart 1 Divbythreeone 1 right
+Divbythreestart b Divbythreefinal b right
+
+Divbythreeone 0 Divbythreetwo 0 right
+Divbythreeone 1 Divbythreestart 1 right
+
+Divbythreetwo 1 Divbythreetwo 1 right
+Divbythreetwo 0 Divbythreeonw 0 right

@@ -1,0 +1,7 @@
+Decrementstart 0 Decrementstart 1 right
+Decrementstart 1 Decrementtransition 0 left
+Decrementstart b Decrementtransition b left
+
+Decrementtransition 1 Decrementtransition 1 left
+Decrementtransition 0 Decrementtransition 0 left
+Decrementtransition b Decrementfinal b right
