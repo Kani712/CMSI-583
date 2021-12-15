@@ -13,14 +13,14 @@ A Turing Machine consists of three parts: tape, write head, machine state. Tape 
 The algorithm used for implementation using a Turing machine formal definition:
 
 A deterministic Turing machine can be defined as a 7-tuple
-M = (Q, Σ, Γ, δ, q0, qaccept, qreject), where Q, Σ, Γ are all finite sets and
-- Q - set of states 
-- Σ - is the input alphabet not containing a blank symbol ⊔ 
-- Γ - is the tape alphabet, where `⊔ ∈ Γ and Σ ⊆ Γ 
-- δ - Q × Γ→ Q × Γ × {L,R} is the transition function. 
-- q0 ∈ Q is the start state 
-- qaccept ∈ Q is the accept state and 
-- qreject ∈ Q is the reject state, where qreject ≠ qaccept
+* M = (Q, Σ, Γ, δ, q0, qaccept, qreject), where Q, Σ, Γ are all finite sets and
+    - Q - set of states 
+    - Σ - is the input alphabet not containing a blank symbol ⊔ 
+    - Γ - is the tape alphabet, where `⊔ ∈ Γ and Σ ⊆ Γ 
+    - δ - Q × Γ→ Q × Γ × {L,R} is the transition function. 
+    - q0 ∈ Q is the start state 
+    - qaccept ∈ Q is the accept state and 
+    - qreject ∈ Q is the reject state, where qreject ≠ qaccept
 
 For this project we implemented a Turing Machine that takes in binary numbers in python that performs any functions based on rules(under functions folder) and tapes(under tapes folder) provided via text file . The following are the functions we used in our project:
 1. Increment
@@ -29,7 +29,7 @@ For this project we implemented a Turing Machine that takes in binary numbers in
 4. Palindrome checker
 5. Divisible by 3
 
-The turing machine provides if given string is accepted or not accepted.
+The turing machine provides if given strings are accepted or not accepted.
 
 ## Program Description
 
